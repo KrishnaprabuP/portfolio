@@ -84,7 +84,7 @@ padding:18px 20px;
 }
 .stat-c{background:var(--bg3);border:1px solid var(--border);padding:20px 24px;border-radius:var(--r);position:relative;overflow:hidden;}
 .stat-c::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,var(--gold),var(--gold2));}
-.stat-n{font-family:'Syne',sans-serif;font-size:38px;font-weight:800;color:var(--white);line-height:1;}
+.stat-n{font-family:'Syne',sans-serif;font-size:34px;font-weight:800;color:var(--white);line-height:1;}
 .stat-n em{font-style:normal;font-size:16px;color:var(--gold);}
 .stat-l{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-top:4px;}
 .h-scroll{position:absolute;bottom:36px;left:60px;display:flex;align-items:center;gap:12px;font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;}
@@ -401,8 +401,8 @@ white-space:normal;
 }
 
 .h-stats{
-flex-direction:row;
-flex-wrap:wrap;
+grid-template-columns:1fr;
+gap:12px;
 }
 
 /* SECTIONS */
@@ -559,11 +559,9 @@ height:clamp(150px,25vw,210px);
   <div class="h-orb h-orb-2"></div>
   <div class="h-grid"></div>
   <div class="h-inner">
-    <div>
-      <div class="h-inner">
+  
   <div>
 
-```
 <h1 class="h-name">KRISHNA<span class="g">PRABU P</span></h1>
 <div class="h-role">Mechanical Design Engineer</div>
 
@@ -594,7 +592,6 @@ height:clamp(150px,25vw,210px);
     <div class="stat-l">CAD Certified</div>
   </div>
 </div>
-```
 
   </div>
 </div>
